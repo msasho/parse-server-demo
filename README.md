@@ -5,7 +5,7 @@ setup locally
 ```
 npm install parse-server mongodb-runner
 npx mongodb-runner start
-npx parse-server --appId APPLICATION_ID --masterKey MASTER_KEY --databaseURI mongodb://127.0.0.1:50003/test --cors-allow-origin http://localhost:4040,http://0.0.0.0:4040
+npx parse-server --appId APPLICATION_ID --masterKey MASTER_KEY --databaseURI mongodb://127.0.0.1:50003/test
 ```
 
 ダッシュボードの起動
